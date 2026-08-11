@@ -1,0 +1,19 @@
+# Student Data Management System
+
+A menu-driven Python application developed as part of a computer programming laboratory activity. This project manages structured student records using fundamental Python data types and supports full CRUD (Create, Read, Update, Display) operations.
+
+## Data Structures Used
+- **Strings:** Student Number, Name, and Major fields.
+- **Tuples:** Immutable contact information `(Mymail, Phone Number)`.
+- **Lists:** Dynamic collection of enrolled courses `["CS101", "MATH101"]`.
+- **Dictionaries:** Core database mapping `Student Number -> Student Details`.
+
+## Project Structure
+```text
+student_data_manager/
+├── src/
+│   └── main.py
+├── tests/
+│   └── sample_test_cases.md
+├── README.md
+└── .gitignore
